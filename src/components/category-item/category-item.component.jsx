@@ -1,6 +1,6 @@
 import './categories-item.styles.scss'
 
-export const CategoryItem = (category) => {
+export const CategoryItem = ({category}) => {
     const {title, imageUrl} = category
     return (
         <div className='category-container'>
