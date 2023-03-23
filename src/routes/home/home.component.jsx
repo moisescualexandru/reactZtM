@@ -1,6 +1,6 @@
-import {CategoryMenu} from './components/category-menu/category-menu.component'
+import {CategoryMenu} from '../../components/category-menu/category-menu.component'
 
-const App = () => {
+const Home = () => {
     const categories = [
         {
           "id": 1,
@@ -32,4 +32,4 @@ const App = () => {
     return <CategoryMenu categories={categories} />
 }
 
-export default App
+export default Home
